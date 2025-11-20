@@ -10,6 +10,12 @@ namespace Stfano
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserisci il tuo nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Inserisci il tuo cognome: ");
+            string cognome = Console.ReadLine();
+            Persona persona = new Persona(nome, cognome);
+            persona.StampaNomeCompleto();
         }
     }
 }
