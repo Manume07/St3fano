@@ -8,5 +8,6 @@ namespace Stfano
 {
     internal class Nullafacente
     {
+        // commento
     }
 }
